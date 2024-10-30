@@ -1,10 +1,9 @@
 
 import './App.css'
-import Feature from './components/Feature'
+
 import Footer from './components/Footer'
 import Header from './components/Header'
-import Hero from './components/Hero'
-import Post from './components/post'
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from './pages/About'
 import Contact from './pages/Contact'
