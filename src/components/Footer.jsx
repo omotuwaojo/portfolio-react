@@ -9,7 +9,8 @@ export default function Footer() {
   return (
     <div className='flex'> 
       <Link to=""><FaFacebookSquare /></Link>
-      <Link to=""><FaFacebookSquare /></Link>
+      <Link to=""><FaWhatsappSquare /></Link>
+      <Link to=""><FaLinkedin /></Link>
       <Link to=""><FaLinkedin /></Link>
     </div>
   )

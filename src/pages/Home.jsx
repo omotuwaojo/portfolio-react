@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import Post from '../components/post'
+import Post from '../components/Post'
 import Feature from '../components/Feature'
 
 
