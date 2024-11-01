@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Skills() {
   return (
-    <div>Skills</div>
+    <div className="mt-20 text-center md:text-3xl font-bold text-gray-800 ">Coming Soon</div>
   )
 }
