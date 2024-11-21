@@ -1,7 +1,14 @@
 import React from 'react'
+import Skill from '../components/Skill'
+import Language from '../components/Language'
+import ExtraSkill from '../components/ExtraSkill'
 
 export default function Skills() {
   return (
-    <div className="mt-20 text-center md:text-3xl font-bold text-gray-800 ">Coming Soon</div>
+    <div>
+      <Skill />
+      <Language />
+      <ExtraSkill />
+    </div>
   )
 }

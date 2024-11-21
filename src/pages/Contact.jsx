@@ -1,7 +1,12 @@
 import React from 'react'
+import ContactPage from '../components/Contact'
+import Map from '../components/Map'
 
 export default function Contact() {
   return (
-    <div className="mt-20 text-center md:text-3xl font-bold text-gray-800 ">Coming Soon</div>
+    <div>
+      <ContactPage />
+      <Map />
+    </div>
   )
 }
