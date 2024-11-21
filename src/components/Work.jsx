@@ -60,7 +60,7 @@ export default function Work() {
                                 <div className="text-sm font-medium text-gray-500">
                                     {item.role}
                                 </div>
-                                <div className="bg-yellow-400 text-white text-sm font-medium px-3 py-1 rounded-md mt-2">
+                                <div className="bg-blue-400 text-white text-sm font-medium px-3 py-1 rounded-md mt-2">
                                     {item.date}
                                 </div>
                             </div>

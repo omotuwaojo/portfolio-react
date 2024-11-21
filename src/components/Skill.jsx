@@ -27,13 +27,13 @@ export default function Skill() {
                         <div key={index} className="bg-white shadow-md rounded-md p-6">
                             {/* Skill Name */}
                             <div className="flex items-center mb-2">
-                                <span className="text-2xl text-yellow-500 mr-3">{skill.icon}</span>
+                                <span className="text-2xl text-blue-500 mr-3">{skill.icon}</span>
                                 <h3 className="text-lg font-bold">{skill.name}</h3>
                             </div>
                             {/* Progress Bar */}
                             <div className="relative w-full h-4 bg-gray-200 rounded-full">
                                 <div
-                                    className="absolute top-0 left-0 h-4 bg-yellow-500 rounded-full  animate-load transition-all duration-500"
+                                    className="absolute top-0 left-0 h-4 bg-blue-500 rounded-full  animate-load transition-all duration-500"
                                     style={{ width: `${skill.percentage}%`,
                                     '--progress-width': skill.percentage,
                                     animationDelay: `${index * 0.3}s`, // Staggered delay
