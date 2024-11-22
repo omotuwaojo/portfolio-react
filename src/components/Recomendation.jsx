@@ -8,21 +8,21 @@ const recommendations = [
         role: "Graphic Designer",
         review: "Great Quality! Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         rating: 5,
-        image: "https://via.placeholder.com/150", // Replace with actual image URLs
+        image: "/images/reco.jpg", // Replace with actual image URLs
     },
     {
         name: "Tiana Philips",
         role: "Photographer",
         review: "Amazing Work! Vitae nulla diam in arcu dictum a urna viverra morbi.",
         rating: 5,
-        image: "https://via.placeholder.com/150",
+        image: "/images/reco.jpg",
     },
     {
         name: "Talan Westervelt",
         role: "Business Man",
         review: "Great Quality! Vitae nulla diam in arcu dictum a urna viverra morbi.",
         rating: 5,
-        image: "https://via.placeholder.com/150",
+        image: "/images/reco.jpg",
     },
 ];
 

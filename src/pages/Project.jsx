@@ -1,7 +1,10 @@
 import React from 'react'
+import JobDone from '../components/JobDone'
 
 export default function Project() {
   return (
-    <div className="mt-20 text-center md:text-3xl font-bold text-gray-800 ">Coming Soon</div>
+    <div >
+      <JobDone />
+    </div>
   )
 }

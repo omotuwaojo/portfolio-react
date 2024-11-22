@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { FaDownload } from "react-icons/fa";
 
 export default function Work() {
     const workHistoryData = [
@@ -68,6 +69,8 @@ export default function Work() {
                     ))}
                 </div>
             </div>
+            
         </div>
     );
 }
+
