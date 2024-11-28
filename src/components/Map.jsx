@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Map() {
     return (
-        <div className="bg-gray-100 md:m-12">
+        <div className="bg-gray-100 md:m-12 p-6">
             {/* Map Section */}
             <div className="relative">
                 {/* Embed Google Map */}

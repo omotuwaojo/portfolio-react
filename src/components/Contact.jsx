@@ -73,9 +73,9 @@ const ContactPage = () => {
             <div className="flex items-center space-x-4">
               <FaMapMarkerAlt className="text-blue-500 text-2xl" />
               <div>
-                <p className="text-gray-800 font-bold">Country: Bangladesh</p>
-                <p className="text-gray-800">City: Dhaka</p>
-                <p className="text-gray-800">Street: 35 Vhatera, Badda</p>
+                <p className="text-gray-800 font-bold">Country: Nigeria</p>
+                <p className="text-gray-800">City: Ijebu-Ode, Ogun State.</p>
+                <p className="text-gray-800">Street: Folagbade </p>
               </div>
             </div>
 
@@ -83,9 +83,9 @@ const ContactPage = () => {
             <div className="flex items-center space-x-4">
               <FaEnvelope className="text-blue-500 text-2xl" />
               <div>
-                <p className="text-gray-800 font-bold">Email: youremail@gmail.com</p>
-                <p className="text-gray-800">Skype: @YourUsername</p>
-                <p className="text-gray-800">Telegram: @YourUsername</p>
+                <p className="text-gray-800 font-bold">Email: omotuwaojo@gmail.com</p>
+                <p className="text-gray-800">LinkedIn: @OmotuwaOjo</p>
+                <p className="text-gray-800">Telegram: @OmotuwaOjo</p>
               </div>
             </div>
 
@@ -94,8 +94,8 @@ const ContactPage = () => {
               <FaPhoneAlt className="text-blue-500 text-2xl" />
               <div>
                 <p className="text-gray-800 font-bold">Support Services: 15369</p>
-                <p className="text-gray-800">Office: +58 (021)356 587 235</p>
-                <p className="text-gray-800">Personal: +58 (021)356 587 235</p>
+                <p className="text-gray-800">Office: +234 (081)579 688 31</p>
+                <p className="text-gray-800">Personal: +234 (070)436 657 00</p>
               </div>
             </div>
           </div>

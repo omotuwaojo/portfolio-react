@@ -3,9 +3,9 @@ import React from 'react'
 export default function Language() {
     const languages = [
         { name: "English", level: "Fluent", percentage: 90 },
-        { name: "Spanish", level: "Intermediate", percentage: 70 },
-        { name: "French", level: "Beginner", percentage: 50 },
-        { name: "German", level: "Beginner", percentage: 40 },
+        { name: "Yoruba", level: "Intermediate", percentage: 70 },
+        // { name: "French", level: "Beginner", percentage: 50 },
+        // { name: "German", level: "Beginner", percentage: 40 },
     ];
 
     return (
