@@ -4,7 +4,7 @@ import { FaArrowRight }
 
 export default function Hero() {
   return (
-    <div className="font-custom flex flex-col-reverse lg:flex-row items-center justify-center gap-10 m-10 lg:m-20">
+    <div className="animate__animated animate__fadeInLeft font-custom flex flex-col-reverse lg:flex-row items-center justify-center gap-10 m-10 lg:m-20">
     {/* Text Section */}
     <div className="text-center lg:text-left">
       <h1 className="text-3xl lg:text-5xl font-bold">
@@ -25,7 +25,7 @@ export default function Hero() {
     </div>
   
     {/* Image Section */}
-    <div className="md:order-first lg:order-none">
+    <div className="animate__animated animate__fadeInRight md:order-first lg:order-none">
       <img
         src="/images/me.jpg"
         alt="Omotuwa Ojo"

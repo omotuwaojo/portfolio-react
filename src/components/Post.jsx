@@ -57,7 +57,7 @@ const services = [
 export default function Post() {
   return (
     <div className="bg-gray-100 py-12 md:m-12 ">
-      <h2 className="text-center text-3xl font-bold text-gray-800 mb-5">Our Services</h2>
+      <h2 className="text-center text-3xl font-bold text-gray-800 mb-5">My Services</h2>
       <p className="text-center text-gray-600 mt-2 px-4 md:px-12 lg:px-48 mb-5">
         Explore a wide range of services tailored to meet your needs. From web development to cloud solutions, <br />
         our offerings are designed to help you achieve your goals efficiently and effectively.
