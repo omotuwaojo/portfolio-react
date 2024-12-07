@@ -56,18 +56,17 @@ const services = [
 
 export default function Post() {
   return (
-    <div className="bg-gray-100 py-12 md:m-12 ">
-      <h2 className="text-center text-3xl font-bold text-gray-800 mb-5">My Services</h2>
-      <p className="text-center text-gray-600 mt-2 px-4 md:px-12 lg:px-48 mb-5">
+    <div className="bg-gray-100 py-12 md:m-12 animate__animated animate__zoomIn animate__delay-2s">
+      <h2 data-aos="fade-right" className="text-center text-3xl font-bold text-gray-800 mb-5">My Services</h2>
+      <p data-aos="fade-right" className="text-center text-gray-600 mt-2 px-4 md:px-12 lg:px-48 mb-5">
         Explore a wide range of services tailored to meet your needs. From web development to cloud solutions, <br />
         our offerings are designed to help you achieve your goals efficiently and effectively.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-12">
+      <div  data-aos="fade-down" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-12">
         {services.map((service, index) => (
           <div
             key={index}
-            className="flex flex-col items-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition"
-          >
+            data-aos="fade-in" className="flex flex-col items-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition" >
             <div className="text-blue-500 text-4xl mb-4">{service.icon}</div>
             <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
             <p className="text-gray-600 text-center">{service.description}</p>

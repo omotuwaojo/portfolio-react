@@ -23,7 +23,7 @@ export default function Map() {
                 <div className="container mx-auto flex flex-wrap justify-center items-center space-x-6">
                     {/* Individual Logo */}
                     <img
-                        src="/path/to/logo1.png"
+                        src="/images/logo1.png"
                         alt="Petroleum"
                         className="h-16 grayscale hover:grayscale-0 transition"
                     />

@@ -45,7 +45,7 @@ export default function Work() {
                     {workHistoryData.map((item, index) => (
                         <div
                             key={index}
-                            className="bg-white shadow-md rounded-md p-6 flex items-center justify-between"
+                            className="bg-white shadow-md rounded-md p-6 flex items-center justify-between" data-aos="zoom-out-right"
                         >
                             {/* Left Section */}
                             <div className="flex flex-col">

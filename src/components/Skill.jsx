@@ -24,7 +24,7 @@ export default function Skill() {
                 {/* Skills Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {skills.map((skill, index) => (
-                        <div key={index} className="bg-white shadow-md rounded-md p-6">
+                        <div key={index} className="bg-white shadow-md rounded-md p-6" data-aos="fade-up-right">
                             {/* Skill Name */}
                             <div className="flex items-center mb-2">
                                 <span className="text-2xl text-blue-500 mr-3">{skill.icon}</span>

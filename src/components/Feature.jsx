@@ -6,7 +6,7 @@ export default function Feature() {
             <div className='flex justify-center py-5'>
                 <h1 className='font-semibold text-xl justify-start'>Future Projects</h1>
             </div>
-            <div className="font-custom max-w-3xl mx-auto bg-white rounded-lg p-4  overflow-hidden flex flex-col md:flex-row">
+            <div className="font-custom max-w-3xl mx-auto bg-white rounded-lg p-4  overflow-hidden flex flex-col md:flex-row" data-aos="zoom-in-down">
 
                 <div className="md:w-1/2">
                     <img class="w-80   " src="/images/Rectangle 30.png" alt="Feature Post Image" />
@@ -26,7 +26,7 @@ export default function Feature() {
                 </div>
 
             </div>
-            <div className="font-custom max-w-3xl mx-auto bg-white rounded-lg p-4  overflow-hidden flex flex-col md:flex-row">
+            <div className="font-custom max-w-3xl mx-auto bg-white rounded-lg p-4  overflow-hidden flex flex-col md:flex-row" data-aos="zoom-in-down">
 
                 <div className="md:w-1/2">
                     <img class="w-80   " src="/images/Rectangle 34.png" alt="Feature Post Image" />
@@ -46,7 +46,7 @@ export default function Feature() {
                 </div>
 
             </div>
-            <div className="font-custom max-w-3xl mx-auto bg-white rounded-lg p-4  overflow-hidden flex flex-col md:flex-row">
+            <div className="font-custom max-w-3xl mx-auto bg-white rounded-lg p-4  overflow-hidden flex flex-col md:flex-row" data-aos="zoom-in-down">
 
                 <div className="md:w-1/2">
                     <img class="w-80   " src="/images/Rectangle 32.png" alt="Feature Post Image" />

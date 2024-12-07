@@ -4,8 +4,8 @@ import { FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaTwitterSquare, FaWha
 
 export default function Footer() {
   return (
-    <footer className="bg-white py-4">
-      <div className="flex justify-center space-x-6">
+    <footer className="bg-white py-4" >
+      <div  className="flex justify-center space-x-6" >
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
           <FaFacebookSquare className="text-gray-600 hover:text-blue-600" size={34} />
         </a>

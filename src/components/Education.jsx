@@ -40,12 +40,11 @@ export default function Education() {
                 </p>
 
                 {/* Education Items */}
-                <div className="space-y-6">
+                <div className="space-y-6 animate__animated animate__fadeInLeft" >
                     {educationData.map((item, index) => (
                         <div
                             key={index}
-                            className="bg-white shadow-md rounded-md p-6 flex items-center justify-between"
-                        >
+                            className="bg-white shadow-md rounded-md p-6 flex items-center justify-between" data-aos="zoom-out-right">
                             {/* Left Section */}
                             <div className="flex flex-col">
                                 <h3 className="text-lg font-bold">{item.institution}</h3>
