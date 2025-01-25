@@ -3,28 +3,28 @@ import React from 'react'
 export default function Education() {
     const educationData = [
         {
-            institution: "University Of Toronto",
-            certificate: "Certificate Of Web Training",
+            institution: "Ladoke Akintola University ",
+            certificate: "BSC Computer Science",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh eu faucibus nunc, egestas id amet porttitor.",
             role: "Student",
-            date: "2019 - Dec 2021",
+            date: "2024 - Current",
         },
         {
-            institution: "Programming Course",
-            certificate: "Certificate Of Web Training",
+            institution: "Havard Cs50",
+            certificate: "Certificate Of Web Development",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus.",
             role: "Student",
-            date: "2018 - 2020",
+            date: "2023 - 2024",
         },
         {
-            institution: "Web Developer Courses",
-            certificate: "Certificate Of Web Training",
+            institution: "New Horizons",
+            certificate: "Certificate Of Fullstack Developer",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus risus enim neque eget dui. Pellentesque risus enim neque eget.",
             role: "Student",
-            date: "2017 - 2019",
+            date: "2024 - 2025",
         },
     ];
 
@@ -32,7 +32,7 @@ export default function Education() {
         <div className="bg-gray-100 py-12">
             <div className="container mx-auto px-4">
                 {/* Title */}
-                <h2 className="text-3xl font-semibold text-center mb-4">Education</h2>
+                <h2 className="text-3xl font-bold text-center mb-4">Education</h2>
                 <p className="text-center text-gray-600 mb-8">
                     Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor <br />
                     Do Amet Sint, Velit Officia Consequat Duis Enim Velit Mollit, <br />

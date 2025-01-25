@@ -1,5 +1,7 @@
 import React from 'react'
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, } from "react-icons/fa";
+import { SiTailwindcss} from "react-icons/si";
+
 
 export default function Skill() {
     const skills = [
@@ -7,7 +9,7 @@ export default function Skill() {
         { name: "CSS", percentage: 85, icon: <FaCss3Alt /> },
         { name: "JavaScript", percentage: 80, icon: <FaJsSquare /> },
         { name: "React", percentage: 75, icon: <FaReact /> },
-        { name: "Tailwind CSS", percentage: 85 },
+        { name: "Tailwind CSS", percentage: 85,icon: <SiTailwindcss />  },
         { name: "Node.js", percentage: 70, icon: <FaNodeJs /> },
     ];
 
@@ -15,7 +17,7 @@ export default function Skill() {
         <div className="bg-gray-100 py-12">
             <div className="container mx-auto px-4">
                 {/* Title */}
-                <h2 className="text-3xl font-semibold text-center mb-4">My Skills</h2>
+                <h2 className="text-3xl font-bold text-center mb-4">My Skills</h2>
                 <p className="text-center text-gray-600 mb-8">
                     A brief showcase of my technical skills and expertise. <br />
                     Constantly improving and learning to deliver the best results.

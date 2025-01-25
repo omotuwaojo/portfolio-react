@@ -4,7 +4,7 @@ export default function Feature() {
     return (
         <section >
             <div className='flex justify-center py-5'>
-                <h1 className='font-semibold text-xl justify-start'>Future Projects</h1>
+                <h1 className='font-bold text-3xl justify-start'>Future Projects</h1>
             </div>
             <div className="font-custom max-w-3xl mx-auto bg-white rounded-lg p-4  overflow-hidden flex flex-col md:flex-row" data-aos="zoom-in-down">
 

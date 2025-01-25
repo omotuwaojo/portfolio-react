@@ -16,7 +16,7 @@ export default function ExtraSkill() {
         <div className="bg-gray-50 py-12">
           <div className="container mx-auto px-4">
             {/* Title */}
-            <h2 className="text-3xl font-semibold text-center mb-6">Extra Skills</h2>
+            <h2 className="text-3xl font-bold text-center mb-6">Extra Skills</h2>
             <p className="text-center text-gray-600 mb-8">
               Technologies and tools I have experience with.
             </p>

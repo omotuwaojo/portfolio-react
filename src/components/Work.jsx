@@ -8,7 +8,7 @@ export default function Work() {
             certificate: "Certificate Of Web Training",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh eu faucibus nunc, egestas id amet porttitor.",
-            role: "Student",
+            role: "Instructor",
             date: "2019 - Dec 2021",
         },
         {
@@ -16,15 +16,15 @@ export default function Work() {
             certificate: "Certificate Of Web Training",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus.",
-            role: "Student",
+            role: "Instructor",
             date: "2018 - 2020",
         },
         {
-            position: "Senior Web Designer",
-            certificate: "Certificate Of Web Training",
+            position: "Senior Web Developer",
+            certificate: "Fullstack Web Developer",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus risus enim neque eget dui. Pellentesque risus enim neque eget.",
-            role: "Student",
+            role: "Instrutor",
             date: "2017 - 2019",
         },
     ];
@@ -33,7 +33,7 @@ export default function Work() {
         <div className="bg-gray-100 py-12">
             <div className="container mx-auto px-4">
                 {/* Title */}
-                <h2 className="text-3xl font-semibold text-center mb-4">Work History</h2>
+                <h2 className="text-3xl font-bold text-center mb-4">Work History</h2>
                 <p className="text-center text-gray-600 mb-8">
                     Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor <br />
                     Do Amet Sint, Velit Officia Consequat Duis Enim Velit Mollit, <br />
